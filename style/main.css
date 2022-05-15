@@ -1,0 +1,92 @@
+:root{
+  --rosa: pink;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  background: var(--rosa);
+  font-family: 'Arial', Times, serif;
+  color:white;
+  
+}
+
+header .container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+header .logo{
+  margin-top: 30px;
+  color:red;
+  font-family: 'Arial';
+  height: 50px;
+  font-size: 15px;
+}
+
+header nav a{
+  text-decoration: none;
+  color:red;
+  margin-right:20px;
+  font-size: 18px;
+ 
+}
+
+header nav a:hover{
+  color:white;
+}
+
+.capa-principal{
+ background-image: url('../img/ultima.JPG');
+
+ 
+ height: 400px;
+ background-size: cover;
+ align-items: center;
+ 
+}
+
+.descriçao{
+ text-align: center;
+ font-size: 20px;
+ margin-bottom: 40px;
+ margin-top: 10px;
+ color:palevioletred;
+
+}
+
+.título{
+  margin-top: 15px;
+  font-size: 40px;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  color:palevioletred;
+  text-align: center;
+}
+
+ .botao{
+   color:red;
+   padding:12PX;
+   font-size: 15px;
+   text-align: center;
+   margin-bottom: 15px;
+ }
+
+  .botao:hover{
+   Color:black; 
+  }
+  
+   footer{
+    background-color:rgb(215, 25, 25, 0.5);
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+   
+  }
